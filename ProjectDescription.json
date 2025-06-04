@@ -1,0 +1,121 @@
+{
+  "ProjectName": "CIRCUITOS",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2025-04-22T19:45:00.701-03:00",
+  "LastSaveTime": "2025-06-04T02:55:40.630-03:00",
+  "Prefs_MainPinNamesDisplayMode": 2,
+  "Prefs_ChipPinNamesDisplayMode": 2,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 0,
+  "Prefs_StraightWires": 0,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "NOT",
+    "OR",
+    "AND",
+    "NOR",
+    "XOR",
+    "XNOR",
+    "HALF_ADDER",
+    "FULL_ADDER",
+    "2-BIT_ADDER",
+    "4-BIT_ADDER",
+    "8-BIT_ADDER",
+    "HALF_SUBTRACTOR",
+    "FULL_SUBTRACTOR",
+    "2-BIT_SUBTRACTOR",
+    "4-BIT_SUBTRACTOR",
+    "8-BIT_SUBTRACTOR",
+    "DESLOCADOR",
+    "ULA-ADD_SUB",
+    "2-BIT_MUX",
+    "4-AND",
+    "8-OR",
+    "ULA COMPLETA",
+    "8-BIT_MUX"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"MERGE/SPLIT",
+      "IsCollection":true
+    },
+    {
+      "Name":"LOGIC GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"ARITHMETIC GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"ULA-ADD_SUB",
+      "IsCollection":false
+    },
+    {
+      "Name":"2-BIT_MUX",
+      "IsCollection":false
+    },
+    {
+      "Name":"ULA COMPLETA",
+      "IsCollection":false
+    },
+    {
+      "Name":"8-BIT_MUX",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["CLOCK","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":false,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":false,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":false,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY"],
+      "IsToggledOpen":false,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["PULSE","LED","BUZZER","ULA-ADD_SUB","2-BIT_MUX","ULA COMPLETA"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["AND","4-AND","NOT","NAND","OR","8-OR","NOR","XOR","XNOR"],
+      "IsToggledOpen":true,
+      "Name":"LOGIC GATES"
+    },
+    {
+      "Chips":["HALF_ADDER","FULL_ADDER","2-BIT_ADDER","4-BIT_ADDER","8-BIT_ADDER","HALF_SUBTRACTOR","FULL_SUBTRACTOR","2-BIT_SUBTRACTOR","4-BIT_SUBTRACTOR","8-BIT_SUBTRACTOR","DESLOCADOR"],
+      "IsToggledOpen":true,
+      "Name":"ARITHMETIC GATES"
+    }
+  ]
+}
