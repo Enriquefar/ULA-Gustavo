@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-22T19:45:00.701-03:00",
-  "LastSaveTime": "2025-06-04T02:55:40.630-03:00",
+  "LastSaveTime": "2025-06-04T13:48:18.972-03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 1,
@@ -35,7 +35,12 @@
     "4-AND",
     "8-OR",
     "ULA COMPLETA",
-    "8-BIT_MUX"
+    "8-BIT_MUX",
+    "3-AND",
+    "DECODER",
+    "AND_BITWISE",
+    "OR_BITWISE",
+    "XOR_BITWISE"
   ],
   "StarredList":[
     {
@@ -59,15 +64,7 @@
       "IsCollection":false
     },
     {
-      "Name":"2-BIT_MUX",
-      "IsCollection":false
-    },
-    {
       "Name":"ULA COMPLETA",
-      "IsCollection":false
-    },
-    {
-      "Name":"8-BIT_MUX",
       "IsCollection":false
     }
   ],
@@ -103,17 +100,17 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["PULSE","LED","BUZZER","ULA-ADD_SUB","2-BIT_MUX","ULA COMPLETA"],
+      "Chips":["PULSE","LED","BUZZER","ULA-ADD_SUB","ULA COMPLETA"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
-      "Chips":["AND","4-AND","NOT","NAND","OR","8-OR","NOR","XOR","XNOR"],
+      "Chips":["AND","3-AND","4-AND","NOT","NAND","OR","8-OR","NOR","XOR","XNOR"],
       "IsToggledOpen":true,
       "Name":"LOGIC GATES"
     },
     {
-      "Chips":["HALF_ADDER","FULL_ADDER","2-BIT_ADDER","4-BIT_ADDER","8-BIT_ADDER","HALF_SUBTRACTOR","FULL_SUBTRACTOR","2-BIT_SUBTRACTOR","4-BIT_SUBTRACTOR","8-BIT_SUBTRACTOR","DESLOCADOR"],
+      "Chips":["HALF_ADDER","FULL_ADDER","2-BIT_ADDER","4-BIT_ADDER","8-BIT_ADDER","HALF_SUBTRACTOR","FULL_SUBTRACTOR","2-BIT_SUBTRACTOR","4-BIT_SUBTRACTOR","8-BIT_SUBTRACTOR","DESLOCADOR","AND_BITWISE","OR_BITWISE","XOR_BITWISE","2-BIT_MUX","8-BIT_MUX","DECODER"],
       "IsToggledOpen":true,
       "Name":"ARITHMETIC GATES"
     }
