@@ -247,6 +247,17 @@
       },
       "OutputPinColourInfo":[{"PinColour":0,"PinID":1872250468},{"PinColour":0,"PinID":546301053},{"PinColour":0,"PinID":554759952},{"PinColour":0,"PinID":1989572706},{"PinColour":0,"PinID":1993506787},{"PinColour":0,"PinID":693077408},{"PinColour":0,"PinID":1415164325},{"PinColour":0,"PinID":1850643677},{"PinColour":0,"PinID":1335959820}],
       "InternalData":null
+    },
+    {
+      "Name":"ULA-BITWISE",
+      "ID":408110648,
+      "Label":"",
+      "Position":{
+        "x":-11.9775,
+        "y":-11.3125
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2065029351},{"PinColour":0,"PinID":830808048},{"PinColour":0,"PinID":38186211},{"PinColour":0,"PinID":490179114},{"PinColour":0,"PinID":2077433563},{"PinColour":0,"PinID":1453689371},{"PinColour":0,"PinID":1825133149},{"PinColour":0,"PinID":1610785609}],
+      "InternalData":null
     }
   ],
   "Wires":[],
